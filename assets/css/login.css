@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../Raleway.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../Roboto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
   background-image: url("../bg.png");
 }
@@ -12,7 +26,9 @@ body{
 
 h1 {
   background: #007c8d;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
+  font-weight: 300;
   padding: 1rem;
 }
 
@@ -33,6 +49,9 @@ form input {
   display: inline-block;
   text-align: center;
   margin: 5px 0 2rem 0;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 
 input:focus{
@@ -46,4 +65,6 @@ button {
   border-radius: 25px;
   border: none;
   color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: .9rem;
 }
