@@ -1,0 +1,49 @@
+body{
+  background-image: url("../bg.png");
+}
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  padding-bottom: 2rem;
+  text-align: center;
+  background: #4fb6b6;
+}
+
+h1 {
+  background: #007c8d;
+  color: #fff;
+  padding: 1rem;
+}
+
+img{
+  width: 25%;
+}
+
+.form-container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+form input {
+  width: 40%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 0 2rem 0;
+}
+
+input:focus{
+  outline: 2px rgba(0, 77, 87, .5) solid;
+}
+
+button {
+  width: 120px;
+  height: 35px;
+  background: #007c8d;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+}
