@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Riwayat Penyakit Pasien</title>
+  <link rel="stylesheet" href="assets/css/font-face.css">
+  <link rel="stylesheet" href="assets/css/input-data.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="logo">
+    <h1>Data Rekam Medis Pasien</h1>
+  </header>
+
+  <main>
+    <h2>Input Riwayat Penyakit Pasien</h2>
+    <form>
+      <div class="input">
+        <label for="nik">NIK</label>
+        <input type="text" id="nik" readonly value="123456(nanti dari dbnya) hanya bisa liat">
+      </div>
+      <div class="input">
+        <label for="idRekamMedis">No Rekam Medis</label>
+        <input type="text" id="idRekamMedis" required>
+      </div>
+      <div class="input">
+        <label for="doctor">Dokter</label>
+        <input type="text" id="doctor" required>
+      </div>
+      <div class="input">
+        <label for="staffMedicalRecord">Tenaga Rekam Medis</label>
+        <input type="text" id="staffMedicalRecord" required>
+      </div>
+      <div class="input">
+        <label for="dateOfMedicalRecord">Tanggal Rekam Medis</label>
+        <input type="date" id="dateOfMedicalRecord" required>
+      </div>
+      <div class="input">
+        <label for="bodyWeight">Berat Badan</label>
+        <input type="text" id="bodyWeight" required>
+      </div>
+      <div class="input">
+        <label for="diagnosa">Diagnosa</label>
+        <textarea name="diagnosa" id="diagnosa" cols="30" rows="10" required></textarea>
+      </div>
+      <button type="submit">Tambahkan</button>
+    </form>
+  </main>
+</body>
+</html>
